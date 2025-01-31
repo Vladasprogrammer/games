@@ -11,8 +11,6 @@ switch (main?.dataset?.page) {
     case 'genres':
         new Genre();
         break;
-
-
     default:
         console.log('Tokio puslapio nėra');
         break;

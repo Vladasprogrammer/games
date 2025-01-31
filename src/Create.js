@@ -11,8 +11,6 @@ class Create extends Request {
         .addEventListener('click', this.submitCreate.bind(this));
     }
 
-
-
     submitCreate() {
         this.create(this.collectData());
         this.form.querySelectorAll('[name]')
@@ -20,9 +18,6 @@ class Create extends Request {
             input.value = '';
         });
     }
-
-
-
 }
 
 export default Create;

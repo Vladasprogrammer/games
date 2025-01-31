@@ -12,13 +12,7 @@ class Genre {
         this.Create = new Create(this);
         this.Edit = new Edit(this);
         this.Delete = new Delete(this);
-
-
-        
     }
-
-
-
 }
 
 export default Genre;
